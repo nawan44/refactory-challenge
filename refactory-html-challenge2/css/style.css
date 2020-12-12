@@ -1,3 +1,11 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
 header {
     margin: 0 auto;
     width: 100%;
@@ -47,7 +55,6 @@ header {
 .promo {
     width: 100%;
     height: 70px;
-    padding: 10px;
 }
 .promo1 {
     float: left;
@@ -100,27 +107,40 @@ content {
     height: 70px;
     background-color: bisque;
 }
-.product {
+.container-product {
     background-color: darkblue;
-    width: 100%;
+    width: 90%;
     height: auto;
+    text-align: center;
+    margin: 0 auto;
 }
-.product1{
+.product{
     text-align: center;
     background-color: aquamarine;
-    width: 200px;
+    width: 30%;
     float: left;
-    margin: 10px;
+    margin: 0 auto;
     padding: 10px;
     height: 250px;
 }
-
+.row-product{
+    background-color: coral;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 270px;
+    padding: 10px;
+}
 footer {
     margin: 0 auto;
     width: 100%;
     height: 50px;
     background-color: aqua;
     text-align: center;
-    padding: 20px 0 0 20px;
 
+}
+.footer-text{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #61b15a;
 }

@@ -20,6 +20,7 @@ header {
     padding: 5px 0;
 
 }
+
 .logo-judul {
     width: 20%;
     padding: 10px;
@@ -38,13 +39,15 @@ header {
 }
 
 .input-search i {
-    width: 7%;
+    width: 25px;
+    padding: 0 0 2px 0;
     float: left;
 }
 
 .input-search input {
     width: 90%;
     border: none;
+    padding: 5px 0 0 5px;
 }
 
 .input-search input:focus {
@@ -52,7 +55,8 @@ header {
 }
 
 .logo-belanja {
-    width: 20%;
+    padding: 10px 0 0 0;
+    width: 150px;
     height: 30px;
     float: left;
 }
@@ -61,32 +65,43 @@ header {
     width: 20%;
     padding: 10px 0 0;
 }
+/**************************** MENU ************************/
 
 .menu {
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
     padding: 10px 0;
-    height: 40px;
-    /* background-color: #ffffff; */
+    height: 50px;
+    /* background-color: red; */
+    background-color: #ffffff;
 }
-
-.menunav {
-    float: right;
-    width: 80%;
-}
-
 .logonav {
     float: left;
     width: 20%;
 }
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+nav{
+    width: 450px;
+    height: 45px;
+    /* padding: 0 0 0 30px; */
+    text-align: center;
+    margin: 0 auto;
+    /* background-color: yellow; */
 }
 
-li a {
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+nav ul li {
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+nav li a {
     display: block;
     background-color: #81D586;
     color: black;
@@ -100,16 +115,33 @@ li a {
 
 }
 
-li a:hover {
+nav li a:hover {
     background-color: aqua;
     color: blue;
 }
 
+/********************* CONTAINER MAIN *******************/
+.container-main {
+    width: 100%;
+    height: 1700px;
+    /* position: relative; */
+    padding: 150px 0 0;
+    /* background-color: yellow; */
+}
+
+/***************** SERVICES ****************************/
 .services {
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: #81D586;
-    padding: 10px 0 20px;
+    padding: 5px 0 5px 0;
+}
+.container-services{
+    width: 700px;
+    height: 40px;
+    /* background-color: red; */
+    text-align: center;
+    margin: 0 auto;
 }
 
 .services-detil {
@@ -128,63 +160,8 @@ li a:hover {
     background-color: yellow;
 
 }
-.promo {
-    width: 100%;
-    height: 50px;
-    background-color: #81D586;
-    padding: 10px 0 20px;
-}
 
-.promo-member {
-    float: left;
-    width: 20%;
-    font-size: 20px;
-    border: 1px solid blue;
-    background-color: violet;
-    height: 40px;
-    padding: 10px 0 0;
-    margin: 5px;
-    text-align: center;
-}
-
-.promo-discount {
-    float: left;
-    width: 20%;
-    font-size: 20px;
-    border: 1px solid blue;
-    background-color: yellow;
-    height: 40px;
-    padding: 10px 0 0;
-    margin: 5px;
-    text-align: center;
-}
-
-.promo-buy {
-    float: left;
-    width: 20%;
-    font-size: 20px;
-    border: 1px solid blue;
-    background-color: green;
-    height: 40px;
-    padding: 10px 0 0;
-    margin: 5px;
-    text-align: center;
-}
-.promo-promo {
-    float: left;
-    width: 20%;
-    font-size: 20px;
-    border: 1px solid blue;
-    background-color: orange;
-    height: 40px;
-    padding: 10px 0 0;
-    margin: 5px;
-    text-align: center;
-}
-.promo-detil:hover {
-    background-color: yellow;
-
-}
+/************************* LOCATION ********************/
 
 .location {
     text-align: center;
@@ -206,13 +183,78 @@ li a:hover {
     padding: 0 0 10px;
 }
 
-.container-main {
+
+/************************** PROMO ************************/
+.promo {
     width: 100%;
-    height: 1700px;
-    /* position: relative; */
-    padding: 150px 0 0;
-    /* background-color: yellow; */
+    height: 55px;
+    background-color: #81D586;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    margin: 0 auto;
 }
+.container-promo{
+    width: 670px;
+    height: 50px;
+    /* background-color: red; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.promo-member {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: violet;
+    height: 30px;
+    padding: 10px 0 0 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.promo-discount {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: yellow;
+    height: 30px;
+    padding: 10px 0 0;
+    margin: 5px;
+    text-align: center;
+}
+
+.promo-buy {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: green;
+    height: 30px;
+    color: #ffff;
+    padding: 10px 0 0;
+    margin: 5px;
+    text-align: center;
+}
+.promo-promo {
+    float: left;
+    width: 150px;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: orange;
+    height: 30px;
+    padding: 10px 0 0 0;
+    margin: 5px;
+    text-align: center;
+}
+.promo-detil:hover {
+    background-color: yellow;
+
+}
+
+
+
 
 .info-product {
     width: 100%;
@@ -320,6 +362,9 @@ footer {
     text-align: left;
     margin: 20px 0 20px 20px;
 }
+.col1-row-footer1 ul {
+    list-style: none;
+}
 .col1-row-footer1 li {
     text-align: left;
     margin: 0 0 0 20px;
@@ -334,6 +379,10 @@ footer {
     text-align: left;
     margin: 20px 0 20px 20px;
 }
+.col2-row-footer1 ul {
+    list-style: none;
+}
+
 .col2-row-footer1 li {
     text-align: left;
     margin: 0 0 0 20px;

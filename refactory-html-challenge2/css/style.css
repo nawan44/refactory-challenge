@@ -8,14 +8,14 @@ html {
 header {
     margin: 0 auto;
     width: 100%;
-    height: 150px;
+    height: 130px;
     /* background-color: #81D586; */
     /* background-color: red; */
     position: fixed;
 }
 .head {
     width: 100%;
-    height: 70px;
+    height: 65px;
     background-color: #81D586;
     padding: 5px 0;
 
@@ -123,9 +123,9 @@ nav li a:hover {
 /********************* CONTAINER MAIN *******************/
 .container-main {
     width: 100%;
-    height: 1700px;
+    height: 1300px;
     /* position: relative; */
-    padding: 150px 0 0;
+    padding: 150px 0 0 0;
     /* background-color: yellow; */
 }
 
@@ -176,6 +176,10 @@ nav li a:hover {
 
 .location a {
     color: black;
+    text-decoration: none;
+}
+.location a:hover {
+    color: blue;
 }
 .location a span {
     font-size: 22px;
@@ -253,33 +257,40 @@ nav li a:hover {
 
 }
 
+/****************** CONTAINER PRODUCT *********************/
 
-
-
-.info-product {
-    width: 100%;
-    height: 70px;
-    background-color: bisque;
-}
 
 .container-product {
     /* background-color: darkblue; */
     width: 90%;
-    height: auto;
+    height: 800px;
     text-align: center;
-    margin: 50px auto;
+    margin: 20px auto;
 }
-
+.row-product {
+    /* background-color: coral; */
+    text-align: center;
+    margin: 0 auto;
+    width: 910px;
+    height: 350px;
+    /* padding: 10px; */
+}
 .product {
     text-align: center;
     background-color: #ffffff;
-    width: 27%;
+    width: 190px;
     float: left;
     margin: 5px;
     border: 2px solid #000000;
     padding: 10px;
     height: auto;
 }
+.info-product {
+    width: 100%;
+    height: 70px;
+    background-color: bisque;
+}
+
 .product img {
     width: 70%;
 }
@@ -316,14 +327,7 @@ nav li a:hover {
 
 }
 
-.row-product {
-    /* background-color: coral; */
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    height: 350px;
-    /* padding: 10px; */
-}
+
 .product button {
     width: 100%;
     background-color: blue;
@@ -360,7 +364,7 @@ footer {
 }
 .col1-row-footer1 h3 {
     text-align: left;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 10px 60px;
 }
 .col1-row-footer1 ul {
     list-style: none;
@@ -377,15 +381,18 @@ footer {
 }
 .col2-row-footer1 h3 {
     text-align: left;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 10px 40px;
 }
 .col2-row-footer1 ul {
     list-style: none;
+    /* background-color: red; */
 }
 
-.col2-row-footer1 li {
+.col2-row-footer1 ul li {
     text-align: left;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 0;
+    /* background-color: yellowgreen; */
+
 }
 
 .col3-row-footer1 {
@@ -395,14 +402,14 @@ footer {
 }
 .col3-row-footer1 h3 {
     text-align: left;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 10px 20px;
 }
 .col3-row-footer1 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.col3-row-footer1 li {
+.col3-row-footer1 ul li {
     text-align: left;
     margin: 0 0 0 20px;
 }
